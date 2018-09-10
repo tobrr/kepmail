@@ -47,7 +47,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "KEP+Mail"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
@@ -55,6 +55,12 @@ googleAnalytics = ""
     about = "About"
     team = "Team"
     contact = "Contact"
+    organization = "Verband"
+    news = "News"
+    members = "Mitlieder"
+    politics = "Politik"
+    media = "Medien und Downloads"
+    
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
