@@ -507,7 +507,7 @@ header.masthead .intro-text .intro-heading {
   }
   .timeline > li {
     min-height: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .timeline > li .timeline-panel {
     float: left;
@@ -598,9 +598,9 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/alpine-beautiful-bloom-267133.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
 }
 
 section#contact .section-heading {
