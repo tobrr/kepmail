@@ -13,15 +13,15 @@ p {
 }
 
 a {
-  color: #E32C25;
+  color: #D04133;
 }
 
 a:hover {
-  color: #E32C25;
+  color: #D04133;
 }
 
 .text-primary {
-  color: #E32C25 !important;
+  color: #D04133 !important;
 }
 
 h1,
@@ -50,7 +50,7 @@ section h3.section-subheading {
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: 'AvenirNextLTPro-It', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'AvenirNextLTPro-Regular', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -70,27 +70,27 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #E32C25;
-  border-color: #E32C25;
+  background-color: #D04133;
+  border-color: #D04133;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #E32C25 !important;
-  border-color: #E32C25 !important;
+  background-color: #D04133 !important;
+  border-color: #D04133 !important;
   color: white;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem #E32C2599 !important;
+  box-shadow: 0 0 0 0.2rem #D0413399 !important;
 }
 
 ::-moz-selection {
-  background: #E32C25;
+  background: #D04133;
   text-shadow: none;
 }
 
 ::selection {
-  background: #E32C25;
+  background: #D04133;
   text-shadow: none;
 }
 
@@ -113,17 +113,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #E32C25;
+  background-color: #D04133;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: #E32C25;
+  color: #D04133;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #E32C25;
+  color: #D04133;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -136,7 +136,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #E32C25;
+  color: #D04133;
 }
 
 @media (min-width: 992px) {
@@ -211,14 +211,14 @@ header.masthead .intro-text .intro-heading {
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
     font-style: italic;
-    line-height: 40px;
+    line-height: 54px;
     margin-bottom: 25px;
-    font-family: 'AvenirNextLTPro-It', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'AvenirNextLTPro-Regular', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
-    line-height: 75px;
+    line-height: 86px;
     margin-bottom: 50px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
@@ -250,7 +250,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: #E32C2594;
+  background: #D0413394;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -454,7 +454,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #E32C25;
+  background-color: #D04133;
 }
 
 .timeline > li .timeline-image h4 {
@@ -626,7 +626,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #E32C25;
+  border-color: #D04133;
   box-shadow: none;
 }
 
@@ -696,5 +696,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #E32C25;
+  background-color: #D04133;
 }

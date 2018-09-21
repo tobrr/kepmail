@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+{{ partial "head.html"  }}
+
+  <body id="page-top">
+  
+    <!-- Navigation -->
+    {{ partial "nav.html" | relURL }}
+
+
+    <main>
+      <div>
+
+{{ .Content }}
+      </div>
+    </main>
+  
+
+  
+    <!-- Contact -->
+    {{ partial "contact.html"  }}
+  
+    <!-- Footer -->
+    {{ partial "footer.html"  }}
+  
+    <!-- JS -->
+    {{ partial "js.html" }}
+  
+  </body>
+
+</html>
