@@ -1,70 +1,67 @@
 <!DOCTYPE html>
 <html lang="de">
-{{ partial "head.html"  }}
+    {{ partial "head.html"  }}
 
-<body id="page-top">
-
-    <!-- Navigation -->
-    {{ partial "nav.html" | relURL }}
-
-    <section class="bg-light" id="portfolio">
-        <div class="container">
-            <div class="row">
-                {{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") }}
-                {{ range $paginator.Pages }}
-
-
-                <section class="article-list">
-                    <div class="categories">
-                        {{ with .Params.categories }}
-                        {{ range first 1 . }}
-                        <a href="{{ relURL (print "/categories/" . | urlize) }}">{{ . }}</a>
-                        {{ end }}
-                        {{ else }}
-                        <a>{{ default "Uncategorized" .Site.Params.text.uncategorized }}</a>
-                        {{ end }}
-                    </div>
-                    <h1><a href="{{ .URL }}">{{ .Title }}</a></h1>
-                    <div class="date-author">
-
-                        <span class="date">{{ .Date.Format "2006-01-02" }}</span>
-                    </div>
-                    <div class="summary">
-                        <a href="{{ .URL }}">
-                            {{ with .Params.thumbnail }}
-                            <div class="thumbnail"><img src="{{ relURL . }}" alt="Thumbnail" /></div>
-                            {{ else }}
-                            {{ $img := findRE "<img src=\"[^\"]+\"" .Content 1 }}
-                            {{ range $img }}
-                            <div class="thumbnail">{{ (print . " alt=\"Thumbnail\" />") | safeHTML }}</div>
-                            {{ end }}
-                            {{ end }}
-                            {{ with .Description }}
-                            {{ $.Scratch.Set "summary" (markdownify .) }}
-                            {{ else }}
-                            {{ $.Scratch.Set "summary" ((delimit (findRE "(<p.*?>(.|\n)*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 200 .Site.Params.summary_length) (default " &hellip;" .Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
-                            {{ end }}
-                            {{ $.Scratch.Get "summary" }}
-                        </a>
-                    </div>
-                </section>
-                {{ end }}
-
+    <body id="page-top">
+        <!-- Navigation -->
+        {{ partial "nav.html" | relURL }}
+    
+        <section class="bg-light" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    {{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") }}
+                    {{ range $paginator.Pages }}
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <a class="portfolio-link"  href="{{ .URL }}">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                {{ with .Params.thumbnail }}
+                                    <img src="{{ relURL . }}" alt="Thumbnail" class="img-fluid" />
+                                {{ else }}
+                                    {{ $img := findRE "img src=\"[^\"]+\"" .Content 1 }}
+                                    {{ range $img }}
+                                        {{ (print . " alt=\"Thumbnail\" />") | safeHTML }}
+                                    {{ end }}
+                                {{ end }}
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="categories">
+                                    {{ with .Params.categories }}
+                                        {{ range first 1 . }}
+                                            <a href="{{ relURL (print "/categories/" . | urlize) }}">{{ . }}</a>
+                                        {{ end }}
+                                    {{ else }}
+                                        <a>{{ default "Uncategorized" .Site.Params.text.uncategorized }}</a>
+                                    {{ end }}
+                                </div>
+                                <div class="date-author">
+                                    <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+                                </div>
+                                
+                                <h4>{{ .Title }}</h4>
+                                <p class="text-muted">
+                                    {{ with .Description }}
+                                    {{ $.Scratch.Set "summary" (markdownify .) }}
+                                    {{ else }}
+                                    {{ $.Scratch.Set "summary" ((delimit (findRE "(<p.*?>(.|\n)*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 20 .Site.Params.summary_length) (default " &hellip;" .Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
+                                    {{ end }}
+                                    {{ $.Scratch.Get "summary" }}
+                                </p>
+                            </div>
+                        </div>
+                    {{ end }}
+                </div>
             </div>
-        </div>
-    </section>
-
-
-
-    <nav>{{ template "_internal/pagination.html" . }}</nav>
-
-
-
-      <!-- Contact -->
-      {{ partial "contact.html"  }}
-      <!-- Footer -->
-      {{ partial "footer.html"  }}
-      <!-- JS -->
-      {{ partial "js.html" }}
-  </body>
+        </section>
+        <nav>{{ template "_internal/pagination.html" . }}</nav>
+        <!-- Contact -->
+        {{ partial "contact.html"  }}
+        <!-- Footer -->
+        {{ partial "footer.html"  }}
+        <!-- JS -->
+        {{ partial "js.html" }}
+    </body>
 </html>
