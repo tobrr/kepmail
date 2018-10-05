@@ -6,7 +6,7 @@
         <!-- Navigation -->
         {{ partial "nav.html" | relURL }}
     
-        <section class="bg-light" id="portfolio">
+        <section class="bg-light" id="portfolio" >
             <div class="container">
                 <div class="row">
                     {{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") }}

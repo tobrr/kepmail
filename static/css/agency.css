@@ -13,15 +13,15 @@ p {
 }
 
 a {
-  color: #D04133;
+  color: #e5291e;
 }
 
 a:hover {
-  color: #D04133;
+  color: #e5291e;
 }
 
 .text-primary {
-  color: #D04133 !important;
+  color: #e5291e !important;
 }
 
 h1,
@@ -70,27 +70,27 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #D04133;
-  border-color: #D04133;
+  background-color: #e5291e;
+  border-color: #e5291e;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #D04133 !important;
-  border-color: #D04133 !important;
+  background-color: #e5291e !important;
+  border-color: #e5291e !important;
   color: white;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem #D0413399 !important;
+  box-shadow: 0 0 0 0.2rem #e5291e99 !important;
 }
 
 ::-moz-selection {
-  background: #D04133;
+  background: #e5291e;
   text-shadow: none;
 }
 
 ::selection {
-  background: #D04133;
+  background: #e5291e;
   text-shadow: none;
 }
 
@@ -113,17 +113,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #D04133;
+  background-color: #e5291e;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: #D04133;
+  color: #e5291e;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #D04133;
+  color: #e5291e;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -136,7 +136,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #D04133;
+  color: #e5291e;
 }
 
 @media (min-width: 992px) {
@@ -250,7 +250,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: #D0413394;
+  background: #e5291e94;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -454,7 +454,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #D04133;
+  background-color: #e5291e;
 }
 
 .timeline > li .timeline-image h4 {
@@ -626,7 +626,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #D04133;
+  border-color: #e5291e;
   box-shadow: none;
 }
 
@@ -696,5 +696,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #D04133;
+  background-color: #e5291e;
 }

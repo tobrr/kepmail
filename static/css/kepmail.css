@@ -18,3 +18,9 @@ body {
     vertical-align: top;
     padding: 1.2em 0 0 0;
 }
+
+.top-nav-space {
+    top: 178px; 
+    position: relative;
+    
+}

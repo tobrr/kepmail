@@ -11,12 +11,26 @@ thumbnail: "/img/portfolio/01-thumbnail.jpg"
 weight: 1
 ---
 
-**Lorem ipsum** dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore _magna aliqua_. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Quisque mattis volutpat lorem vitae feugiat. Praesent porta est quis porta imperdiet. Aenean porta, mi non cursus volutpat, mi est mollis libero, id suscipit orci urna a augue. In fringilla euismod lacus, vitae tristique massa ultricies vitae. Mauris accumsan ligula tristique, viverra nulla sed, porta sapien. Vestibulum facilisis nec nisl blandit convallis. Maecenas venenatis porta malesuada. Ut ac erat tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla sodales quam sit amet tincidunt egestas. In et turpis at orci vestibulum ullamcorper. Aliquam sed ante libero. Sed hendrerit arcu lacus.
-
-> Sed luctus volutpat sem in dapibus. Ut pellentesque vitae magna ac mattis. Sed vestibulum, nulla at condimentum semper, magna quam posuere dui, quis sagittis enim nisi eget ex. Vivamus tempor erat a sem dapibus porta. Fusce varius dapibus tempus. Nam bibendum dignissim fringilla. Phasellus eu justo facilisis, ullamcorper urna in, feugiat mauris. Quisque dignissim purus vitae ullamcorper scelerisque. Sed at magna at nisi consequat euismod. Curabitur justo ex, efficitur in fermentum luctus, tincidunt nec lectus. Aliquam a neque metus. Etiam nulla nunc, tristique vitae accumsan ullamcorper, placerat eget nunc. Cras porta eleifend dolor maximus molestie. Etiam vitae pellentesque turpis, quis accumsan ligula. Mauris auctor, nisi nec ullamcorper pulvinar, libero magna sagittis enim, sollicitudin dignissim urna justo et tortor.
-
-Morbi non sem euismod, suscipit purus id, gravida velit. Quisque mollis luctus ligula non suscipit. Curabitur massa arcu, aliquam ac dolor a, pellentesque dignissim dui. Donec at vestibulum magna. Quisque fermentum, tortor id sodales egestas, ligula ligula interdum ipsum, et volutpat elit massa vitae nibh. Morbi eleifend libero quis pretium viverra. Etiam congue, velit ac vestibulum finibus, velit nibh fringilla purus, eu semper dui est eu nunc. Etiam feugiat scelerisque diam vitae sodales. Etiam luctus in urna eu lobortis. Nam vestibulum eros et nibh elementum ullamcorper. Nam tristique porttitor orci, nec pretium est vestibulum at. Quisque posuere semper orci, vel semper justo commodo sed. Nullam accumsan risus rhoncus fringilla porta. Morbi interdum condimentum pharetra. Donec eu elit quam. Vivamus eleifend posuere mi, vel accumsan urna sollicitudin ut.
-
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla nec nunc felis. Sed bibendum vel leo id semper. Maecenas vitae iaculis ante. Nam ut tempor est, eu molestie augue. Quisque tincidunt sagittis odio sed tristique. Aenean et felis quis mi viverra consequat.
+ <h2>Bundesrat will Wettbewerbshindernisse abbauen</h2>
+              <p>Bericht des Bundesrates &uuml;ber die Evaluation des Postgesetzes vom 11. Januar 2017</p>
+              <p class="item-intro text-muted"><strong>Der Bundesrat sieht Handlungsbedarf zur F&ouml;rderung des Wettbewerbs im Postmarkt und will die dringendsten Hemmnisse im Postgesetz beheben. Damit werden seit Jahren ge&auml;usserte Anliegen von KEP&amp;Mail erf&uuml;llt, die sofort in der Postverordnung ge&auml;ndert werden k&ouml;nnen. Dagegen wird die Monopolh&uuml;rde von 50 Gramm nicht gelockert, obwohl der Evaluationsbericht der Grundversorgung gute Noten erteilt und nur eine begrenzte Dynamik im Briefmarkt feststellt.</strong></p>
+              <p>Der Evaluationsbericht zum Postgesetz beleuchtet alle wesentlichen Aspekte. Der Bundesrat attestiert einen funktionierenden Wettbewerb im Paketmarkt, w&auml;hrend er im Briefmarkt nur eine geringe Entwicklung von Alternativen zur Post sieht.
+                KEP&amp;Mail begr&uuml;sst, dass der Bundesrat anerkennt, dass die heutige Postgesetzgebung in verschiedenen Bereichen das Ziel der Wettbewerbsf&ouml;rderung verfehlt und Massnahmen zur Behebung von Hindernissen einleiten will. Alles h&auml;ngt
+                jedoch davon ab, wie die entsprechenden Bestimmungen im Detail ausgestaltet werden. Der Verband KEP&amp;Mail erwartet, dass er dabei mitwirken kann.</p>
+              <p>Alle Bereiche, bei denen der Bundesrat Handlungsbedarf sieht, k&ouml;nnen aus Sicht KEP&amp;Mail in der Postverordnung geregelt werden, ohne dass das Postgesetz ge&auml;ndert werden muss. Damit k&ouml;nnen diese &Auml;nderungen sehr rasch
+                vollzogen und die Wirkung im Markt rasch erreicht werden. Es w&auml;re unsinnig, wenn daf&uuml;r zuerst eine Gesetzesrevision abgewartet werden m&uuml;sste.</p>
+              <p>Obwohl mit den vorgeschlagenen Massnahmen die dringendsten Probleme gel&ouml;st werden, sind f&uuml;r die Entfaltung des Wettbewerbs weitere Schritte notwendig:</p>
+              <ul>
+                <li>Einf&uuml;hrung einer Zugangsregelung f&uuml;r die Aufgabe von Sendungen alternativer Postdienstleister in den Poststellen und die Aufhebung diskriminierender Bestimmungen bei Postagenturen.</li>
+                <li>Ausdehnung des Teilleistungszugangs auf den Transport, die Zustellung und Sortierung.</li>
+                <li>Verhinderung der Entstehung neuer Monopole bei digitalisierten Infrastrukturen wie Paketanlagen und Hausbriefkasten.</li>
+                <li>Lockerung des Briefmonopols mit Absenkung in einem n&auml;chsten Schritt auf 25 Gramm.</li>
+              </ul>
+              <p>Der Verband KEP&amp;Mail sieht in den durch den Bundesrat vorgeschlagenen Massnahmen einen Schritt in die richtige Richtung zur Wettbewerbsf&ouml;rderung. Er wertet dies als Zeichen daf&uuml;r, dass die Probleme erkannt sind und erwartet
+                weitere grundlegendere &Ouml;ffnungsschritte im Postmarkt.</p>
+              <p>12.01.17</p>
+              <p>F&uuml;r weitere Ausk&uuml;nfte:</p>
+              <p>KEP&amp;Mail, Peter Sutterl&uuml;ti, Pr&auml;sident<br /> c/o simpuls ag, Thunstrasse 17, Postfach 343, 3000 Bern 6<br /> Tel. +41 31 357 38 57, Fax +41 31 357 38 58<br />
+                <a href="mailto:position@kepmail.ch">position@kepmail.ch</a><br />
+                <a href="http://www.kepmail.ch/">www.kepmail.ch</a>
+              </p>

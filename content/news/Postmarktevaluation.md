@@ -1,0 +1,88 @@
+---
+title: "Postmarktevaluation: Bundesrat zieht falsche Schlüsse auf Grund mangelhafter Postmarktevaluation"
+author: Mauricio Vargas
+date: '2015-07-24'
+categories:
+  - Statistics
+tags:
+  - Markdown
+  - Lorem Ipsum
+thumbnail: "/img/portfolio/01-thumbnail.jpg"
+weight: 1
+---
+
+<h2>Postmarktevaluation</h2>
+
+
+<p>Bundesrat zieht falsche Schl&uuml;sse auf Grund mangelhafter Postmarktevaluation</p>
+
+<p>&nbsp;</p>
+
+<p>Position KEP&amp;Mail zum Bericht des Bundesrates vom 18. September 2015 zur Zementierung des Briefmonopols</p>
+
+<p>&nbsp;</p>
+
+<p>Schon im Postgesetz von 2012 wurde kein wirklicher Schritt in Richtung Wettbewerb zu Gunsten vermehrter Alternativen f&uuml;r die Kunden unternommen. Das Parlament hatte aber bez&uuml;glich der weiteren Markt&ouml;ffnung f&uuml;r heute wohlweislich einen Evaluationsbericht verlangt in der Absicht, weitere Liberalisierungsschritte vollziehen zu k&ouml;nnen. Nun zeigt ein ausf&uuml;hrlicher Bericht des BAKOM verschiedene Facetten auf, die aber wenig zielf&uuml;hrend und auch nicht stimmig sind. Die weitere Markt&ouml;ffnung wird mit dem Fazit abgeschmettert, dass sich auf Grund der Analysen im Ausland im Briefmarkt zu wenig Wettbewerb entwickeln werde. Gleichzeitig wird argumentiert, dass dieser wenige Wettbewerb durch die Aufhebung des Briefmonopols die Grundversorgung gef&auml;hrden k&ouml;nne, was absolut absurd ist.</p>
+
+<p>&nbsp;</p>
+
+<p>Der Evaluationsbericht des Bundesrates weist gravierende M&auml;ngel, Inkonsistenzen und Unvollst&auml;ndigkeiten auf:</p>
+
+<ul>
+	<li>Die Feststellung, dass der existierende Wettbewerb auch im Briefmarkt zu attraktiven, verbesserten Angeboten und Innovationen bei der Post gef&uuml;hrt hat, steht kontrovers zur Schlussfolgerung, das Monopol beizubehalten. Ebenso ist die Aussage, dass der Bundesrat mit der Postmarkt&ouml;ffnung die Qualit&auml;t der Dienstleistungen in der Grundversorgung erh&ouml;hen m&ouml;chte, nicht kompatibel mit der Beibehaltung des Monopols. Die Erfahrungen mit der Paketliberalisierung k&ouml;nnen die positive Wirkung der Markt&ouml;ffnung auf die Angebotsqualit&auml;t belegen.</li>
+</ul>
+
+<ul>
+	<li>Falsch ist, dass keine private Anbieterin von Postdiensten in der Schweiz eine fl&auml;chendeckende Zustellung anbietet. DPD, DHL, GO! z.B. beweisen das Gegenteil mit eigener Zustellorganisation.</li>
+</ul>
+
+<ul>
+	<li>Dass keine private Anbieterin von Postdiensten mit der Post zusammenarbeitet, liegt daran, dass die Post dies konsequent erfolgreich verhindert. So verweigert die Post beispielsweise generell den Teilleistungszugang, obwohl dieser im Postgesetz festgehalten ist.</li>
+</ul>
+
+<ul>
+	<li>Gef&auml;hrlich ist es, den Marktanteil der privaten Anbieterinnen von Briefdienstleistungen mit 1.6% einzig auf den Gesamtmarkt der adressierten Briefe zu beziehen. Auf den heute ge&ouml;ffneten Anteil von lediglich 25% der adressierten Briefe und unter Abgrenzung des Werbesendungssegments (etwa 50% der adressierten Briefe), erh&ouml;ht sich der Marktanteil von den angegebenen 1,6% auf mindestens 15%.</li>
+</ul>
+
+<ul>
+	<li>Unzul&auml;ssig ist es, die Wettbewerbsentwicklung im Briefbereich als schwach zu bezeichnen, ohne zu w&uuml;rdigen, dass dies nur beschr&auml;nkt m&ouml;glich ist, weil f&uuml;r den Grossteil der Briefe immer noch das Monopol gilt. Ein Wettbewerb kann sich nur im freien Markt entwickeln.</li>
+</ul>
+
+<ul>
+	<li>Nicht gew&uuml;rdigt wird die Tatsache, dass weit &uuml;ber 100 mittelst&auml;ndische Firmen und Konzerne das Angebot von Quickmail nutzen.</li>
+</ul>
+
+<ul>
+	<li>Tr&uuml;gerisch ist es, wenn bei den Arbeitspl&auml;tzen die Entwicklung der Gesamtheit betrachtet wird. Die bereits heute ca. 2200 geschaffenen Teilzeit-Arbeitspl&auml;tze sind nur vorhanden, weil Quickmail ein neues Gesch&auml;ftsfeld aufgebaut hat. Ohne Quickmail w&uuml;rden diese Arbeitspl&auml;tze im grossen Umfeld der Post absorbiert, womit viele Leute mit wenig Jobchancen ohne Arbeit w&auml;ren. Mit einer vollst&auml;ndigen Liberalisierung w&uuml;rde es noch viele Jobs mehr geben.</li>
+</ul>
+
+<ul>
+	<li>Mit den als bescheiden dargestellten m&ouml;glichen Marktanteilen bei einer vollst&auml;ndigen Briefliberalisierung kann die Grundversorgung in keiner Weise gef&auml;hrdet sein und kommt auch nicht weiter unter Druck. Garant f&uuml;r die Finanzierung der Grundversorgung ist der Lastenausgleich von den sehr lukrativen dichter besiedelten zu den d&uuml;nn besiedelten Landesteilen. Deshalb verdient die Post im Segment der Grundversorgung Hunderte von Millionen Franken j&auml;hrlich. Dies best&auml;tigt die Aussage im Bericht, wonach die Reduktion des Briefmonopols die Eigenfinanzierung nicht gef&auml;hrdet. Zudem w&uuml;rde eine Umkehr von Betonvorgaben (physische Poststellen) zu Dienstleistungsvorgaben wesentlich zu kundenorientiertem Verhalten beitragen.</li>
+</ul>
+
+<p>Der Verband KEP&amp;Mail kann sich aus diesen Gr&uuml;nden den Schlussfolgerungen des Bundesrates in keiner Weise anschliessen. Er bedauert, dass ein so wichtiger Entscheid auf einer sehr wackligen Basis gef&auml;llt wurde und vorg&auml;ngig der Behandlung im Bundesrat keine Anh&ouml;rung bei den Dienstleistern stattgefunden hat. Ein Entscheid, der massgebend ist f&uuml;r die Existenz von Briefversand-Alternativen zu Gunsten der Kunden und das Weiterbestehen von privaten Wettbewerbern. Es bleibt zu hoffen, dass diese Mechanismen und die Hebelwirkung eines solchen Entscheids in den Kommissionen und im Parlament erkannt werden. Denn Wettbewerb steht f&uuml;r Innovationen, Arbeitspl&auml;tze, Selbstregulierung in Qualit&auml;t, Preis und Leistung.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>3.&nbsp; Oktober 2015</p>
+
+<p>&nbsp;</p>
+
+<p>F&uuml;r weitere Ausk&uuml;nfte:</p>
+
+<p>&nbsp;</p>
+
+<p>KEP&amp;Mail, Peter Sutterl&uuml;ti, Pr&auml;sident</p>
+
+<p>c/o simpuls ag, Thunstrasse 17, Postfach 343, 3000 Bern 6</p>
+
+<p>Tel. +41 31 357 38 57, Fax +41 31 357 38 58</p>
+
+<p><a href="mailto:position@kepmail.ch">position@kepmail.ch</a></p>
+
+<p><a href="http://www.kepmail.ch/">www.kepmail.ch</a></p>
+
