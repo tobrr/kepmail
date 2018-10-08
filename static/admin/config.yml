@@ -1,0 +1,122 @@
+backend:
+  name: github
+  repo: tobrr/kepmail
+  branch: master
+  squash_merges: true
+publish_mode: editorial_workflow
+media_folder: /static/upload
+public_folder: img
+collections:
+  - name: references
+    label: Referenzen
+    label_singular: Referenz
+    folder: /content/references
+    create: true
+    fields:
+      - label: Titel
+        name: title
+        widget: string
+      - label: Col Size
+        name: col_size
+        widget: string
+      - label: Kategorien
+        name: categorie
+        widget: string
+      - label: Teasertext
+        name: description
+        widget: string
+        required: false
+      - label: Content URL
+        name: content_url
+        widget: string
+      - label: Content
+        name: content
+        widget: string
+        required: false
+      - label: Button Text
+        name: button
+        widget: string
+      - label: Bild URL
+        name: img
+        widget: string
+      - label: Carousel
+        name: carousel
+        widget: list
+        field:
+          - label: imgsrc
+            name: imgsrc
+            widget: file
+          - label: imgalt
+            name: imgalt
+            widget: string
+      - label: Body
+        name: body
+        widget: markdown
+  - name: blog
+    label: Blog
+    label_singular: Post
+    folder: /content/blog
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        tagname: h1
+      - label: Author
+        name: author
+        widget: string
+      - label: Description (for blog list)
+        name: description
+        widget: text
+      - label: Meta Description (defaults to Description)
+        name: meta_description
+        widget: text
+        required: false
+      - label: Date
+        name: date
+        widget: date
+      - label: Body
+        name: body
+        widget: markdown
+  - name: updates
+    label: Updates
+    files:
+      - name: releases
+        label: Releases
+        file: kepmail/data/updates.yml
+        fields:
+          - name: updates
+            label: Releases
+            widget: list
+            fields:
+              - name: version
+                label: Version
+              - name: date
+                label: Date
+                widget: date
+              - name: description
+                label: Description
+      - name: notifications
+        label: Notifications
+        file: kepmail/data/notifications.yml
+        description: Site-top notifications - publish one at a time
+        fields:
+          - name: notifications
+            label: Notifications
+            widget: list
+            fields:
+              - label: Title
+                name: title
+                widget: string
+                tagname: h1
+              - label: Published
+                name: published
+                widget: boolean
+              - label: Loud
+                name: loud
+                widget: boolean
+              - label: Message
+                name: message
+                widget: text
+              - label: URL
+                name: url
