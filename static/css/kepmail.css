@@ -24,3 +24,16 @@ body {
     position: relative;
     
 }
+
+#about tr td:first-child {
+    text-align: right !important;
+}
+#about tr td:first-child p {
+    margin: 0 2em !important;
+}
+
+
+#member li {
+    line-height: 1.75;
+    margin: 0 0 0.8em 0;
+}

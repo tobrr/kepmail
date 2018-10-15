@@ -4,6 +4,7 @@
 
   <!-- Plugin JavaScript -->
   <script src="{{ "vendor/jquery-easing/jquery.easing.min.js" | relURL}}"></script>
+  
 
   <!-- Contact form JavaScript -->
   <script src="{{ "js/jqBootstrapValidation.js" | relURL}}"></script>
@@ -11,3 +12,29 @@
 
   <!-- Custom scripts for this template -->
   <script src="{{ "js/agency.min.js" | relURL}}"></script>
+  <script src="{{ "js/jquery.expander.min.js" | relURL}}"></script>
+  <script>
+   // you can override default options globally, so they apply to every .expander() call
+   $.expander.defaults.slicePoint = 80;
+  
+   $(document).ready(function() {
+    // simple example, using all default options unless overridden globally
+    //$('div.expandable p').expander();
+  
+    // *** OR ***
+  
+    // override default options (also overrides global overrides)
+    $('div.expandable p').expander({
+     slicePoint: 100, // default is 100
+     expandEffect: 'slideDown',
+     expandSpeed: 0,
+     collapseEffect: 'slideUp',
+     collapseSpeed: 0,
+     expandPrefix: ' ... ', // default is '... '
+     expandText: '<i class="fa fa-plus fa-inverse fa-1x" style="color: #e5291e;"></i>', // default is 'read more'
+    // collapseTimer: 5000, // re-collapses after 5 seconds; default is 0, so no re-collapsing
+     userCollapseText: '<i class="fa fa-minus fa-inverse fa-1x" style="color: #e5291e;"></i>' // default is 'read less'
+    });
+  
+   });
+  </script>
