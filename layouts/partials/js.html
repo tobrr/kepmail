@@ -35,6 +35,17 @@
     // collapseTimer: 5000, // re-collapses after 5 seconds; default is 0, so no re-collapsing
      userCollapseText: '<i class="fa fa-minus fa-inverse fa-1x" style="color: #e5291e;"></i>' // default is 'read less'
     });
+    $('.getmember ol').expander({
+     slicePoint: 720, // default is 100
+     expandEffect: 'slideDown',
+     expandSpeed: 2000,
+     collapseEffect: 'slideUp',
+     collapseSpeed: 2000,
+     expandPrefix: ' ... ', // default is '... '
+     expandText: '<i class="fa fa-plus fa-inverse fa-1x" style="color: #e5291e;"></i>', // default is 'read more'
+    // collapseTimer: 5000, // re-collapses after 5 seconds; default is 0, so no re-collapsing
+     userCollapseText: '<i class="fa fa-minus fa-inverse fa-1x" style="color: #e5291e;"></i>' // default is 'read less'
+    });
   
    });
   </script>

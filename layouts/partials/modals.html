@@ -43,7 +43,7 @@
 </div>
 
 
-
+<!-- News -->
 <!-- Modal 1 -->
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
@@ -81,7 +81,7 @@
                 <a href="http://www.kepmail.ch/">www.kepmail.ch</a>
               </p>
               <div class="text-center">
-              <button type="button" class="btn btn-primary " data-dismiss="modal"><!-- i class="fa fa-times"></i -->Beitrag schliessen</button>
+                <button type="button" class="btn btn-primary " data-dismiss="modal"><!-- i class="fa fa-times"></i -->Beitrag schliessen</button>
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <div class="modal-body">
+            <div class="modal-body text-left">
               <!-- Project Details Go Here -->
               <h2 class="text-uppercase">Project Name</h2>
               <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
@@ -115,9 +115,9 @@
                 <li>Client: Explore</li>
                 <li>Category: Graphic Design</li>
               </ul>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <!-- i class="fa fa-times"></i -->
-                    Close Project</button>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary " data-dismiss="modal"><!-- i class="fa fa-times"></i -->Beitrag schliessen</button>
+              </div>
             </div>
           </div>
         </div>
@@ -138,7 +138,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <div class="modal-body">
+            <div class="modal-body text-left">
               <!-- Project Details Go Here -->
               <h2 class="text-uppercase">Project Name</h2>
               <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
@@ -150,9 +150,9 @@
                 <li>Client: Finish</li>
                 <li>Category: Identity</li>
               </ul>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary " data-dismiss="modal"><!-- i class="fa fa-times"></i -->Beitrag schliessen</button>
+              </div>
             </div>
           </div>
         </div>
@@ -161,8 +161,10 @@
   </div>
 </div>
 
-<!-- Modal 4 -->
-<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+
+<!-- Downloads -->
+<!-- Modal 1 -->
+<div class="portfolio-modal modal fade" id="downloadModal1" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -173,21 +175,34 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <div class="modal-body">
+            <div class="modal-body text-left">
               <!-- Project Details Go Here -->
-              <h2 class="text-uppercase">Project Name</h2>
-              <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-              <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                nostrum, reiciendis facere nemo!</p>
+              <h2 class="text-uppercase">Dossiers Postmarkt</h2>
+              
+              
               <ul class="list-inline">
-                <li>Date: January 2017</li>
-                <li>Client: Lines</li>
-                <li>Category: Branding</li>
+                <li><a href="{{ "/upload/pdf/kepmailmarktvorurteileundtatsachen_v3_d_clean.pdf" | absURL }}">
+                    <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                    <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                    Ein starker Postmarkt - Modell für eine neue Postgesetzgebung 2015
+                  </a>
+                </li>
+                <li><a href="{{ "/upload/pdf/dossierpost_v2.pdf" | absURL }}">
+                  <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  Dossier Postmarkt - Ungleiche Spiesse im Wettbewerb (937KB)
+                  </a>
+                </li>
+                <li><a href="{{ "/upload/pdf/economisuisse_postdossier_2010.pdf" | absURL }}">
+                  <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  Postdossier economiesuisse_2010
+                  </a>
+                </li>
               </ul>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary " data-dismiss="modal"><!-- i class="fa fa-times"></i -->Downloads schliessen</button>
+              </div>
             </div>
           </div>
         </div>
@@ -196,8 +211,8 @@
   </div>
 </div>
 
-<!-- Modal 5 -->
-<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+<!-- Modal 2 -->
+<div class="portfolio-modal modal fade" id="downloadModal2" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -208,21 +223,50 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <div class="modal-body">
+            <div class="modal-body text-left">
               <!-- Project Details Go Here -->
-              <h2 class="text-uppercase">Project Name</h2>
-              <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-              <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                nostrum, reiciendis facere nemo!</p>
-              <ul class="list-inline">
-                <li>Date: January 2017</li>
-                <li>Client: Southwest</li>
-                <li>Category: Website Design</li>
+              <h2 class="text-uppercase">Dokumente Mitgliedschaft</h2>
+               <ul class="list-inline">
+                <li><a href="{{ "/upload/pdf/argumentebeitritt.pdf" | absURL }}">
+                    <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                    <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                    Argumente für einen Beitritt zu KEP&Mail
+                  </a>
+                </li>
+                <li><a href="{{ "/upload/pdf/km_statuten_d_2017.pdf" | absURL }}">
+                  <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                 KEP&Mail Statuten
+                  </a>
+                </li>
+                <li><a href="{{ "/upload/pdf/km_mitgliedschaften_2017_d.pdf" | absURL }}">
+                  <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  KEP&Mail Mitgliedschaften/Beiträge
+                  </a>
+                </li>
+                <li><a href="{{ "/upload/pdf/km_beitrittserklrung_d.pdf" | absURL }}">
+                    <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                    <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                    KEP&Mail Beitrittserklärung
+                  </a>
+                </li>
+                <li><a href="{{ "/upload/pdf/web_gav_dt.pdf" | absURL }}">
+                  <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  GAV KEP&Mail
+                  </a>
+                </li>
+                <li><a href="{{ "/upload/pdf/haftungskodexkep-mailgltigeversion_051220.pdf" | absURL }}">
+                  <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  Haftungskodex
+                  </a>
+                </li>
               </ul>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+             <div class="text-center">
+                <button type="button" class="btn btn-primary " data-dismiss="modal"><!-- i class="fa fa-times"></i -->Downloads schliessen</button>
+              </div>
             </div>
           </div>
         </div>
@@ -232,7 +276,7 @@
 </div>
 
 <!-- Modal 6 -->
-<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="downloadModal3" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -243,21 +287,62 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <div class="modal-body">
+            <div class="modal-body text-left">
               <!-- Project Details Go Here -->
-              <h2 class="text-uppercase">Project Name</h2>
-              <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-              <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                nostrum, reiciendis facere nemo!</p>
-              <ul class="list-inline">
-                <li>Date: January 2017</li>
-                <li>Client: Window</li>
-                <li>Category: Photography</li>
+              <h2 class="text-uppercase">Newsletter PosiTion</h2>
+              <ul class="list-inline ">
+                <li><a href="{{ "/upload/pdf/position1_d.pdf" | absURL }}">
+                    <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                    <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                    Nr. 1
+                  </a>
+                </li>
+                <li><a href="{{ "/upload/pdf/position2_d.pdf" | absURL }}">
+                  <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  Nr. 2
+                  </a>
+                </li>
+                <li><a href="{{ "/upload/pdf/position3_d.pdf" | absURL }}">
+                  <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  Nr. 3
+                  </a>
+                </li>
+                <li><a href="{{ "/upload/pdf/position4_d.pdf" | absURL }}">
+                    <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                    <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                    Nr. 4
+                  </a>
+                </li>
+                <li><a href="{{ "/upload/pdf/position5_d.pdf" | absURL }}">
+                  <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  Nr. 5
+                  </a>
+                </li>
+                <li><a href="{{ "/upload/pdf/position6_d.pdf" | absURL }}">
+                  <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  Nr. 6
+                  </a>
+                </li>
+                <li><a href="{{ "/upload/pdf/position7_d.pdf" | absURL }}">
+                  <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  Nr. 7
+                  </a>
+                </li>
+                <li><a href="{{ "/upload/pdf/position8_2014-df.pdf" | absURL }}">
+                  <i class="fa fa-download fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  <i class="fa fa-file-pdf fa-inverse fa-1x" style="color: #e5291e;"></i>&nbsp;
+                  Nr. 8
+                  </a>
+                </li>
               </ul>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary " data-dismiss="modal"><!-- i class="fa fa-times"></i -->Downloads schliessen</button>
+              </div>
             </div>
           </div>
         </div>
