@@ -46,6 +46,14 @@ body {
     margin: 0 0 0.8em 0;
 }
 
+#downloads a h4{
+    color: #555;
+}
+#downloads a{
+    yytext-decoration:none;
+}
+
+
 #contact .bgcontact {
     background: white;
     
@@ -57,3 +65,14 @@ body {
     padding: 3em;
 } 
 
+@media (min-width: 1200px){
+    .timeline > li.timeline-inverted > .timeline-panel {
+        padding: 1em 100px 20px 20px!important;
+    }
+}
+@media (min-width: 1200px){
+    .timeline > li .timeline-panel {
+        padding: 1em 20px 20px 100px!important;
+    }
+    
+}
