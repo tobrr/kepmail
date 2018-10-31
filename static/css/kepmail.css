@@ -76,3 +76,15 @@ body {
     }
     
 }
+
+.masthead .hero-overlay {
+background-image: linear-gradient(#080808ad , #9a9a9a00);
+    position: absolute;
+    top: -7em;
+}
+
+.masthead {
+    
+    overflow: hidden;
+    
+}
