@@ -46,6 +46,13 @@
     // collapseTimer: 5000, // re-collapses after 5 seconds; default is 0, so no re-collapsing
      userCollapseText: '<i class="fa fa-minus fa-inverse fa-1x" style="color: #e5291e;"></i>' // default is 'read less'
     });
-  
+    
+    
+    $.fn.random = function() {
+      return this.eq(Math.floor(Math.random() * this.length));
+    }    
+    $('#carouselExampleFade .carousel-item.active').removeClass("active");
+    $('#carouselExampleFade .carousel-item').random().addClass("active");
+    
    });
   </script>

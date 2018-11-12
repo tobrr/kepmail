@@ -88,3 +88,55 @@ background-image: linear-gradient(#080808ad , #9a9a9a00);
     overflow: hidden;
     
 }
+
+
+#portfolio .portfolio-item .portfolio-caption {
+
+    min-height: 134px;
+}
+
+
+
+  
+
+.timeline > li .timeline-image {
+        background-color: #868686;
+}
+
+.timeline > li .timeline-image h4 {
+    font-size: 16px;
+    line-height: 14px;
+    margin-top: 26px;
+}
+
+@media (min-width: 768px){
+    .timeline > li .timeline-image {
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+        
+    
+        
+    }
+    
+    .timeline > li .timeline-image h4 {
+        font-size: 22px;
+        line-height: 18px;
+        margin-top: 35px;
+    }
+}
+
+
+@media (min-width: 1200px){
+    .timeline > li .timeline-image {
+        width: 130px;
+        height: 130px;
+        margin-left: -66px;
+    }
+    
+    .timeline > li .timeline-image h4 {
+        font-size: 1.5rem !important;
+        line-height: 26px;
+        margin-top: 48px;
+    }
+}
