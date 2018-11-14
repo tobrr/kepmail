@@ -4,14 +4,20 @@ body {
 }
 
 #mainNav .img-logo {
-    max-height: 120px;
-    margin: 16px;
+    max-height: 156px;
+    margin: -34px;
 }
+
+
 
 .top-nav-space {
     top: 178px; 
     position: relative;
     
+}
+
+#mainNav li.nav-item {
+    margin: 0 0 -12px 0em;
 }
 
 #ziele {
@@ -109,13 +115,40 @@ background-image: linear-gradient(#080808ad , #9a9a9a00);
     margin-top: 26px;
 }
 
+
+@media (min-width: 500px){
+
+    #mainNav .img-logo {
+    max-height: 100px;
+    margin: -16px;
+
+    }
+}
+
+
+@media (min-width: 550px){
+    
+     #mainNav .img-logo {
+        max-height: 132px;
+        margin: -16px;
+    }
+    
+}
+
+
+
 @media (min-width: 768px){
+     
+     #mainNav .img-logo {
+        max-height: 132px;
+        margin: -16px;
+    }
+
+    
     .timeline > li .timeline-image {
         width: 100px;
         height: 100px;
         margin-left: -50px;
-        
-    
         
     }
     
@@ -139,4 +172,10 @@ background-image: linear-gradient(#080808ad , #9a9a9a00);
         line-height: 26px;
         margin-top: 48px;
     }
+}
+
+.py-5 a {
+    float: left;
+    width: 100px;
+    margin: 4px;
 }

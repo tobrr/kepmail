@@ -127,7 +127,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 100%;
+  font-size: 125%;
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
@@ -156,7 +156,7 @@ img::-moz-selection {
     transition: all 0.3s;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    padding: 1.1em 1em !important;
+    padding: 1.1em 7px !important;
   }
   #mainNav.navbar-shrink {
     padding-top: 0;
