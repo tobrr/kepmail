@@ -31,12 +31,12 @@ body {
 
     
 .masthead .innovation-badge {
-        position: absolute;
-        top: 2em;
-        right: 9em;
-        width: 9em;
-        transform: rotate(-9deg);
-        z-index: 999;
+    position: absolute;
+    top: 2em;
+    right: 9em;
+    width: 9em;
+    transform: rotate(-9deg);
+    z-index: 999;
 }
 
 
@@ -152,15 +152,7 @@ header.masthead .intro-text .intro-heading {
     padding: 3em;
 } 
 
-@media (min-width: 1200px){
-    .timeline > li.timeline-inverted > .timeline-panel {
-        padding: 1em 100px 20px 20px!important;
-    }
-    
-    .timeline > li .timeline-panel {
-        padding: 1em 20px 20px 100px!important;
-    }
-}
+
 
 
 
@@ -218,21 +210,6 @@ header.masthead .intro-text .intro-heading {
         font-size: 22px;
         line-height: 18px;
         margin-top: 35px;
-    }
-}
-
-
-@media (min-width: 1200px){
-    .timeline > li .timeline-image {
-        width: 130px;
-        height: 130px;
-        margin-left: -66px;
-    }
-    
-    .timeline > li .timeline-image h4 {
-        font-size: 1.5rem !important;
-        line-height: 26px;
-        margin-top: 48px;
     }
 }
 
@@ -360,7 +337,34 @@ header.masthead .intro-text .intro-heading {
     }
 }
 
+
+
+
+
+
 @media (min-width: 1200px) {
+    
+    
+    .timeline > li .timeline-image {
+        width: 130px;
+        height: 130px;
+        margin-left: -66px;
+    }
+    
+    .timeline > li .timeline-image h4 {
+        font-size: 1.5rem !important;
+        line-height: 26px;
+        margin-top: 48px;
+    }
+   
+   
+    .timeline > li.timeline-inverted > .timeline-panel {
+        padding: 1em 100px 20px 20px!important;
+    }
+    
+    .timeline > li .timeline-panel {
+        padding: 1em 20px 20px 100px!important;
+    }
     
     header.masthead .intro-text .intro-lead-in {
         font-size: 40px;
