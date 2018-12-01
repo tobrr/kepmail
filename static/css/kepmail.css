@@ -4,8 +4,8 @@ body {
 }
 
 #mainNav .img-logo {
-    max-height: 156px;
-    margin: -34px;
+    max-height: 108px;
+    margin: -8px;
 }
 
 
@@ -65,7 +65,22 @@ body {
 
 }
 .hero-overlay .intro-text  div {
-        text-shadow: 0px 0px 20px black;
+    text-shadow: 0px 0px 20px black;
+}
+
+header.masthead .intro-text .intro-lead-in {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+
+
+header.masthead .intro-text .intro-heading {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 18px;
+
 }
 
 #ziele {
@@ -160,21 +175,14 @@ body {
 }
 
 
-@media (min-width: 500px){
 
-    #mainNav .img-logo {
-    max-height: 100px;
-    margin: -16px;
-
-    }
-}
 
 
 @media (min-width: 550px){
     
      #mainNav .img-logo {
-        max-height: 132px;
-        margin: -16px;
+        max-height: 112px;
+        margin: -8px;
     }
     
 }
@@ -184,8 +192,8 @@ body {
 @media (min-width: 768px){
      
      #mainNav .img-logo {
-        max-height: 132px;
-        margin: -16px;
+        max-height: 122px;
+        margin: -26px;
     }
 
     
@@ -232,23 +240,109 @@ body {
     .card-columns {
         column-count: 2;
     }
-}
-
-@media (min-width: 768px) {
-    .card-columns {
-        column-count: 3;
+    
+    header.masthead .intro-text .intro-lead-in {
+        font-size: 22px;
+        line-height: 34px;
+        margin-bottom: 26px;
+    }
+    
+    
+    header.masthead .intro-text .intro-heading {
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 56px;
+        margin-bottom: 22px;
+    
     }
 }
 
+@media (min-width: 768px) {
+    header.masthead .intro-text {
+        padding-top: 192px;
+    }
+    
+    header.masthead .intro-text .intro-lead-in {
+        font-size: 34px;
+        line-height: 50px;
+        margin-bottom: 24px;
+    }
+    
+    
+    header.masthead .intro-text .intro-heading {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 64px;
+        margin-bottom: 36px;
+    
+    }
+    
+    
+    .card-columns {
+        column-count: 3;
+    }
+  
+     #mainNav .img-logo {
+        max-height: 118px;
+        margin: -12px;
+    }
+    
+    
+
+}
+
 @media (min-width: 992px) {
+    
+    header.masthead .intro-text {
+        padding-top: 248px;
+    }
+    
+    header.masthead .intro-text .intro-lead-in {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 32px;
+       
+    }
+    
+    header.masthead .intro-text .intro-heading {
+        font-size: 60px;
+        line-height: 84px;
+        margin-bottom: 60px;
+    
+    }
+    
     .card-columns {
         column-count: 4;
+    }
+    
+        
+    
+    #mainNav .navbar-nav .nav-item .nav-link {
+        font-size: 110%;
     }
 }
 
 @media (min-width: 1200px) {
+    
+    header.masthead .intro-text .intro-lead-in {
+        font-size: 40px;
+        line-height: 54px;
+        margin-bottom: 48px;
+        margin-top: 34px;
+    }
+    
+    header.masthead .intro-text .intro-heading {
+        font-size: 75px;
+        line-height: 106px;
+        margin-bottom: 94px;
+    
+    }
     .card-columns {
         column-count: 5;
+    }
+    
+    #mainNav .navbar-nav .nav-item .nav-link {
+        font-size: 125%;
     }
 }
 
