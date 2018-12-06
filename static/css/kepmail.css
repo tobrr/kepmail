@@ -33,7 +33,7 @@ body {
 .masthead .innovation-badge {
     position: absolute;
     top: 2em;
-    right: 9em;
+    right: 7em;
     width: 9em;
     transform: rotate(-9deg);
     z-index: 999;
@@ -342,6 +342,30 @@ header.masthead .intro-text .intro-heading {
 
 
 
+@media (max-width: 465px) {
+.masthead {
+    overflow: hidden;
+    height: 394px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 141%;
+    overflow: hidden;
+    margin-left: -5em;
+}
+.masthead .innovation-badge {
+    position: absolute;
+    top: 4em;
+    right: 7em;
+    width: 6em;
+    transform: rotate(-9deg);
+    z-index: 999;
+}
+    
+    
+}
+    
 @media (min-width: 1200px) {
     
     
