@@ -254,6 +254,10 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 768px) {
+    section {
+      padding: 4em 0;
+    }
+    
     header.masthead .intro-text {
         padding-top: 192px;
     }
@@ -421,5 +425,21 @@ header.masthead .intro-text .intro-heading {
     .card-columns {
         column-count: 5;
     }
+}
+
+.portfolio-modal .close-modal {
+  width: 55px;
+  height: 55px;
+  z-index: 9999999;
+}
+
+.portfolio-modal .modal-content .container>:first-child>:first-child {
+  background: url("/img/logos/logo.png");
+  background-position: 1.7em 0em;
+  background-repeat: no-repeat;
+  background-size: 9em;
+  overflow: hidden;
+  padding-top: 5em;
+  margin-top: -5em;
 }
 
